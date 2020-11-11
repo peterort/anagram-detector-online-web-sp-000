@@ -3,6 +3,6 @@ class Anagram
   attr_accessor :anagram
 
   def initialize(word)
-    word.match(%w(enlists google banana))
+    word.match(%w(array))
   end
 end
